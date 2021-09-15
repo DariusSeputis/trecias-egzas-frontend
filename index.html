@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./scripts/index.js"></script>
+    <title>facts</title>
+  </head>
+  <body>
+    <a id="getTenJokesTag" href="http://localhost:5000/api/jokes/"
+      >/api/jokes/
+    </a>
+    <p>get 10 jokes</p>
+    <hr />
+    <a id="getAmountJokesTag" href="http://localhost:5000/api/jokes/4"
+      >/api/jokes/:amount Pvz:4
+    </a>
+    <p>get chosen amount of jokes</p>
+    <hr />
+    <a
+      id="getTenJokesFromCategoryTag"
+      href="http://localhost:5000/api/jokes/science"
+      >/api/jokes/:category Pvz: science
+    </a>
+    <p>get 10 jokes from chosen category</p>
+    <p>
+      categories: animal career celebrity dev explicit fashion food history
+      money movie music political religion science sport travel
+    </p>
+    <hr />
+    <a
+      id="getAmountJokesFromCategoryTag"
+      href="http://localhost:5000/api/jokes/science/3"
+      >api/jokes/:category/:amount Pvz: science/3
+    </a>
+    <p>get chosen amount of jokes from chosen category</p>
+  </body>
+</html>
