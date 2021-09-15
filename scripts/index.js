@@ -10,22 +10,22 @@ const getAmountJokesFromCategoryTag = document.querySelector(
 );
 // Funtions
 function fetchTenJokes() {
-  fetch('http://localhost:5000/api/jokes/')
+  fetch('https://treciasegzassendien.herokuapp.com//api/jokes/')
     .then((res) => res.json())
     .then((data) => console.log(data));
 }
 function fetchAmountJokes() {
-  fetch('http://localhost:5000/api/jokes/4')
+  fetch('https://treciasegzassendien.herokuapp.com//api/jokes/4')
     .then((res) => res.json())
     .then((data) => console.log(data));
 }
 function fetchTenJokesFromCategory() {
-  fetch('http://localhost:5000/api/jokes/science')
+  fetch('https://treciasegzassendien.herokuapp.com//api/jokes/science')
     .then((res) => res.json())
     .then((data) => console.log(data));
 }
 function AmountJokesFromCategory() {
-  fetch('http://localhost:5000/api/jokes/science/3')
+  fetch('https://treciasegzassendien.herokuapp.com//api/jokes/science/3')
     .then((res) => res.json())
     .then((data) => console.log(data));
 }
