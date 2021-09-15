@@ -20,7 +20,7 @@ function fetchAmountJokes() {
     .then((data) => console.log(data));
 }
 function fetchTenJokesFromCategory() {
-  fetch('https://treciasegzassendien.herokuapp.com/api/jokes/science')
+  fetch('https://treciasegzassendien.herokuapp.com/api/joke/science')
     .then((res) => res.json())
     .then((data) => console.log(data));
 }
